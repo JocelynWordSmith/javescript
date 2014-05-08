@@ -9,23 +9,37 @@ var names = new Array(name.split(''));
 
 console.log(names);
 
+function square (number) {
+	return number * number
+
+	
+}
 
 var pants = new Object();
-pants.Lpocket = {"lighter", "cigarettes"};
-pants.Rpocket = {"phone", "wallet"};
+pants.Lpocket = {thing: "lighter", otherthing: "cigarettes"};
+pants.Rpocket = {thing: "phone", otherthing: "wallet"};
 pants.belt = 1;
+
+function namechange (array) {
+	var x = array.length;
+	array[x]
+	return (array.split(''));
+
+}
+
+
 
 // (function()){
 // 	namechop(function(){return (name.split(2, name.length - 2);
 // 		document.write(name);})()
 // }
-// name.namechop = function () {
-// 	return (name.split(2, name.length - 2);
-// 		document.write(name);
-// }
+function namechop (string) {
+	var x = string.length;
+	return (string.slice(1, x -1))
+}
 ////////////////////////////////
 ////////////////////////////////
-//date, found online to play with
+// date, found online to play with
 var now = new Date();
 
 var days = new Array('Sunday','Morndas','Tuesday','Wednesday','Thursday','Friday','Saturday');
@@ -249,6 +263,6 @@ charCodes["7"]="_ _ . . .";
 charCodes["8"]="_ _ _ . .";
 charCodes["9"]="_ _ _ _ .";
 charCodes["0"]="_ _ _ _ _";
-var temp=''
+var temp='';
 
 document.write(names)
