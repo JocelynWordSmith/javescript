@@ -9,6 +9,12 @@ var names = new Array(name.split(''));
 
 console.log(names);
 
+
+var pants = new Object();
+pants.Lpocket = {"lighter", "cigarettes"};
+pants.Rpocket = {"phone", "wallet"};
+pants.belt = 1;
+
 // (function()){
 // 	namechop(function(){return (name.split(2, name.length - 2);
 // 		document.write(name);})()
